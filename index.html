@@ -1,0 +1,197 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sina Asheghalishahi | Profile</title>
+  <meta name="description" content="Personal website and project portfolio." />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+  <link rel="shortcut icon" href="favicon_io/favicon.ico">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+  <nav>
+    <a class="brand" href="#top"><span class="dot"></span><span>Sina Asheghalishahi</span></a>
+    <div class="navlinks">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="https://github.com/Eshmake" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="btn primary" href="#projects">View Portfolio</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top" class="wrap">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="card">
+      <h1>Sina Asheghalishahi</h1>
+      <p class="sub">XR / VR Researcher • Unity + C# • App Design • AI/ML</p>
+      <p class="muted">
+        Hi, I'm Sina! I’m a VR Researcher at KU who builds virtual simulations and interactive prototypes. 
+        I enjoy full-stack development, UI/UX design, and working in teams to build digital systems that solve problems.
+      </p>
+      <div class="split">
+        <a class="btn primary" href="#projects">Browse Projects</a>
+        <a class="btn" href="files/resume.pdf" target="_blank" rel="noreferrer">Resume (PDF)</a>
+        <a class="btn" href="mailto:sina.asheghali@ku.edu">Email</a>
+      </div>
+      <div class="pillrow">
+        <span class="pill">Unity</span>
+        <span class="pill">Meta Quest</span>
+        <span class="pill">XR Interaction Toolkit</span>
+        <span class="pill">C#</span>
+        <span class="pill">C/C++</span>
+        <span class="pill">Python</span>
+        <span class="pill">Java</span>
+        <span class="pill">Node.js</span>
+      </div>
+    </div>
+
+    <div class="card photo-card">
+    <img src="media/profile.jpg" alt="Sina Asheghalishahi professional photo" />
+    </div>
+
+    <!--
+    <div class="card quick">
+      <a href="#projects"><span>Featured Projects</span><span>→</span></a>
+      <a href="#about"><span>About & Skills</span><span>→</span></a>
+      <a href="#contact"><span>Contact</span><span>→</span></a>
+      <div class="small">Tip: put short GIFs (5–10s) as project videos for best impact.</div>
+    </div>
+    -->
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sectionTitle">
+      <h2>Projects</h2>
+      <div class="muted">See what I've been working on!</div>
+    </div>
+
+    <div class="controls">
+      <input id="search" class="input" type="search" placeholder="Search projects (e.g., Unity, VR, AI)…" />
+      <select id="sort">
+        <option value="featured">Sort: Featured</option>
+        <option value="newest">Sort: Newest</option>
+        <option value="az">Sort: A → Z</option>
+      </select>
+      <div class="chipbar" id="chips"></div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sectionTitle">
+      <h2>About</h2>
+      <div class="muted">Hear a little about me!</div>
+    </div>
+    <div class="card" style="padding:18px">
+      <p class="muted" style="margin-top:0">
+        On campus, I’m a SELF Engineering Leadership Fellow, an Undergraduate Research Fellow, and a member of the Honors Program 
+        at the University of Kansas. My work spans SaaS-enabled VR simulations, research-driven training prototypes, and full-stack 
+        tooling to support immersive development. I value interdisciplinary collaboration that bridges technology, finance, and 
+        engineering to address real-world problems.
+      </p>
+      <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="card" style="padding:14px; box-shadow:none; background:rgba(255,255,255,.02)">
+          <h3 style="margin:0 0 8px; font-size:16px">XR</h3>
+          <ul class="list">
+            <li>Unity XR Interaction Toolkit</li>
+            <li>Quest builds w/ interaction design</li>
+            <li>API-based data collection/storage</li>
+          </ul>
+        </div>
+        <div class="card" style="padding:14px; box-shadow:none; background:rgba(255,255,255,.02)">
+          <h3 style="margin:0 0 8px; font-size:16px">Software</h3>
+          <ul class="list">
+            <li>Web w/ HTML/CSS/JS/PHP</li>
+            <li>GUIs w/ Tkinter/Kivy/Qt</li>
+            <li>AI w/ Langchain/Pytorch/scikit-learn</li>
+          </ul>
+        </div>
+        <div class="card" style="padding:14px; box-shadow:none; background:rgba(255,255,255,.02)">
+          <h3 style="margin:0 0 8px; font-size:16px">Extras</h3>
+          <ul class="list">
+            <li>AutoCAD</li>
+            <li>Fusion360</li>
+            <li>Blender</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="sectionTitle">
+      <h2>Contact</h2>
+      <div class="muted">Reach out to me!</div>
+    </div>
+    <div class="card" style="padding:18px">
+      <p class="muted" style="margin-top:0">I'd love to connect and chat about anything related to tech, CS, and VR.</p>
+      <div class="split">
+        <a class="btn primary" href="mailto:sina.asheghali@ku.edu">sina.asheghali@ku.edu</a>
+        <a class="btn" href="https://www.linkedin.com/in/sina-asheghali/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/Eshmake" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© <span id="year"></span> Sina Asheghalishahi</div>
+    <div class="small">Built using HTML, CSS, and JavaScript, and hosted on GitHub Pages.</div>
+  </footer>
+</main>
+
+<!-- MODAL -->
+<dialog id="modal">
+  <div class="modalHead">
+    <div class="modalTitle">
+      <h3 id="mTitle">Project Title</h3>
+      <div id="mMeta" class="meta">Category • Year • Tech</div>
+    </div>
+    <button class="closeX" id="closeBtn" aria-label="Close">×</button>
+  </div>
+
+  <div class="modalBody">
+    <div class="gallery" id="gallery">
+      <!-- media goes here -->
+      <div class="gNav">
+        <button class="btn" id="prevBtn">← Prev</button>
+        <button class="btn" id="nextBtn">Next →</button>
+      </div>
+    </div>
+
+    <div class="side">
+      <div class="box">
+        <h4>Overview</h4>
+        <p id="mDesc" class="muted" style="margin:0"></p>
+      </div>
+      <div class="box">
+        <h4>What I Did</h4>
+        <ul id="mBullets" class="list"></ul>
+      </div>
+      <div class="box">
+        <h4>Tech</h4>
+        <div id="mTags" class="tags"></div>
+        <div class="links" id="mLinks"></div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
